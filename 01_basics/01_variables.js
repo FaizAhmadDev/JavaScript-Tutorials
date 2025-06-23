@@ -1,8 +1,8 @@
 const id = 122
 let email = "faiz@example.com"
 var pass = "abc12"
-accountCity = "here"
-let accountState; // Undefined if not initialized
+accountCity = "here"    // without declaration will not work in 'strict mode'
+let accountState;       // Undefined if not initialized
 
 /*
     prefer not to use var
